@@ -1,5 +1,10 @@
 # simple-screenshot-bot
 
+### Deploy To Render (Paid)
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?)
+
+
 
 You send a text message to the bot, it finds all the links in the message, and replies with the screenshots of all the pages.
 
