@@ -3,7 +3,7 @@ Pillow==8.2.0
 pyaes==1.6.1
 pyasn1==0.4.8
 pyee==8.1.0
-pyppeteer==0.2.5
+git+https://github.com/pyppeteer/pyppeteer@dev
 python-dotenv==0.15.0
 rsa==4.7
 Telethon==1.19.0
