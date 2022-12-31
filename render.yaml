@@ -1,0 +1,17 @@
+services:
+  - type: worker
+    name: simple-screenshot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    repo: https://github.com/sholoomail/simple-screenshot-bot.git
+    branch: main
+    envVars:
+      - key: BOT_TOKEN 
+        sync: false
+      - key: API_ID 
+        sync: false
+      - key: API_HASH 
+        sync: false
+      - key: PYTHON_VERSION 
+        value: 3.9.1
